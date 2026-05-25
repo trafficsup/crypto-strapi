@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bonus_pages",
+  "info": {
+    "singularName": "bonus-page",
+    "pluralName": "bonus-pages",
+    "displayName": "Bonus Page",
+    "description": "Casino-specific bonus pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "casino_slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "bonus_details": {
+      "type": "json"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "faq": {
+      "type": "json"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "review",
+        "published"
+      ],
+      "default": "draft"
+    }
+  }
+}

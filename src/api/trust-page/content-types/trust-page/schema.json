@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trust_pages",
+  "info": {
+    "singularName": "trust-page",
+    "pluralName": "trust-pages",
+    "displayName": "Trust Page",
+    "description": "Legal, RG, and trust pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "page_type": {
+      "type": "enumeration",
+      "enum": [
+        "legal",
+        "responsible-gambling",
+        "trust",
+        "about"
+      ]
+    },
+    "show_in_footer": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "review",
+        "published"
+      ],
+      "default": "draft"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comparison_contents",
+  "info": {
+    "singularName": "comparison-content",
+    "pluralName": "comparison-contents",
+    "displayName": "Comparison Content",
+    "description": "Casino vs casino comparison pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "casino_a_slug": {
+      "type": "string",
+      "required": true
+    },
+    "casino_b_slug": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "comparison_sections": {
+      "type": "richtext"
+    },
+    "comparison_table": {
+      "type": "json"
+    },
+    "winner_verdict": {
+      "type": "richtext"
+    },
+    "faq": {
+      "type": "json"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "review",
+        "published"
+      ],
+      "default": "draft"
+    }
+  }
+}

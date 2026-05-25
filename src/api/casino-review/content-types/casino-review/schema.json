@@ -1,0 +1,104 @@
+{
+  "kind": "collectionType",
+  "collectionName": "casino_reviews",
+  "info": {
+    "singularName": "casino-review",
+    "pluralName": "casino-reviews",
+    "displayName": "Casino Review",
+    "description": "Full casino review content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "private": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "pros": {
+      "type": "json"
+    },
+    "cons": {
+      "type": "json"
+    },
+    "games_review": {
+      "type": "richtext"
+    },
+    "bonus_review": {
+      "type": "richtext"
+    },
+    "deposit_withdrawal": {
+      "type": "richtext"
+    },
+    "security_review": {
+      "type": "richtext"
+    },
+    "mobile_review": {
+      "type": "richtext"
+    },
+    "customer_support": {
+      "type": "richtext"
+    },
+    "verdict": {
+      "type": "richtext"
+    },
+    "faq": {
+      "type": "json"
+    },
+    "rating_overall": {
+      "type": "float"
+    },
+    "rating_games": {
+      "type": "float"
+    },
+    "rating_bonuses": {
+      "type": "float"
+    },
+    "rating_payments": {
+      "type": "float"
+    },
+    "rating_support": {
+      "type": "float"
+    },
+    "affiliate_url": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "review",
+        "published"
+      ],
+      "default": "draft"
+    },
+    "ai_generated": {
+      "type": "boolean"
+    }
+  }
+}

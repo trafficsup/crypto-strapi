@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "game_type_pages",
+  "info": {
+    "singularName": "game-type-page",
+    "pluralName": "game-type-pages",
+    "displayName": "Game Type Page",
+    "description": "Game category landing pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "game_type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "ranked_casinos": {
+      "type": "json"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "faq": {
+      "type": "json"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "review",
+        "published"
+      ],
+      "default": "draft"
+    }
+  }
+}

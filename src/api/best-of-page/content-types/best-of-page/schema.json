@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "best_of_pages",
+  "info": {
+    "singularName": "best-of-page",
+    "pluralName": "best-of-pages",
+    "displayName": "Best Of Page",
+    "description": "Category ranking pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "ranked_casinos": {
+      "type": "json"
+    },
+    "methodology": {
+      "type": "richtext"
+    },
+    "faq": {
+      "type": "json"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "review",
+        "published"
+      ],
+      "default": "draft"
+    }
+  }
+}
