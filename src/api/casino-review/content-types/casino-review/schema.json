@@ -88,6 +88,42 @@
     "affiliate_url": {
       "type": "string"
     },
+    "established": {
+      "type": "integer",
+      "description": "Year the casino was established"
+    },
+    "license": {
+      "type": "string",
+      "description": "Licensing authority name"
+    },
+    "game_count": {
+      "type": "integer",
+      "description": "Total number of games available"
+    },
+    "kyc_required": {
+      "type": "string",
+      "description": "KYC requirements description"
+    },
+    "min_deposit": {
+      "type": "string",
+      "description": "Minimum deposit amount"
+    },
+    "wagering_requirement": {
+      "type": "string",
+      "description": "Bonus wagering requirement (e.g. 40x)"
+    },
+    "supported_cryptos": {
+      "type": "json",
+      "description": "Array of supported cryptocurrency tickers"
+    },
+    "game_providers": {
+      "type": "json",
+      "description": "Array of game software providers"
+    },
+    "deposit_methods": {
+      "type": "json",
+      "description": "Array of accepted deposit methods"
+    },
     "status": {
       "type": "enumeration",
       "enum": [
