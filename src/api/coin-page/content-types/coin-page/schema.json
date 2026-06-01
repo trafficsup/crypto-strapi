@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coin_pages",
+  "info": {
+    "singularName": "coin-page",
+    "pluralName": "coin-pages",
+    "displayName": "Coin Page",
+    "description": "Per-cryptocurrency casino pages"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "coin",
+      "required": true
+    },
+    "coin": {
+      "type": "string",
+      "required": true
+    },
+    "symbol": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "min_deposit": {
+      "type": "string"
+    },
+    "withdrawal_speed": {
+      "type": "string"
+    },
+    "pros": {
+      "type": "json"
+    },
+    "cons": {
+      "type": "json"
+    },
+    "why_use": {
+      "type": "json"
+    },
+    "what_to_look_for": {
+      "type": "json"
+    },
+    "verdict": {
+      "type": "text"
+    }
+  }
+}
