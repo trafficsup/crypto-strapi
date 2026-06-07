@@ -20,7 +20,11 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "files", "videos"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     },
     "siteDescription": {
       "type": "text",
@@ -30,6 +34,62 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "hero_subheading": {
+      "type": "text",
+      "description": "Homepage hero subheading below the H1"
+    },
+    "stats_casinos": {
+      "type": "string",
+      "description": "Homepage stat \u2014 number of casinos tested, e.g. '75+'"
+    },
+    "stats_casinos_label": {
+      "type": "string",
+      "description": "Homepage stat label, e.g. 'Casinos Reviewed'"
+    },
+    "stats_years": {
+      "type": "string",
+      "description": "Homepage stat \u2014 years experience, e.g. '10+'"
+    },
+    "stats_years_label": {
+      "type": "string",
+      "description": "Homepage stat label, e.g. 'Years Experience'"
+    },
+    "stats_criteria": {
+      "type": "string",
+      "description": "Homepage stat \u2014 rating criteria count, e.g. '80+'"
+    },
+    "stats_criteria_label": {
+      "type": "string",
+      "description": "Homepage stat label, e.g. 'Rating Criteria'"
+    },
+    "trust_tiles": {
+      "type": "json",
+      "description": "Array of {icon, title, description} trust tile objects for homepage"
+    },
+    "how_it_works_steps": {
+      "type": "json",
+      "description": "Array of {step, title, description} methodology step objects"
+    },
+    "au_callout_heading": {
+      "type": "string",
+      "description": "AU callout section heading"
+    },
+    "au_callout_body": {
+      "type": "text",
+      "description": "AU callout section body paragraph"
+    },
+    "au_callout_cta_label": {
+      "type": "string",
+      "description": "AU callout CTA button label"
+    },
+    "au_callout_cta_url": {
+      "type": "string",
+      "description": "AU callout CTA URL"
+    },
+    "reviews_count": {
+      "type": "string",
+      "description": "Total reviews count for display, e.g. '78'"
     }
   }
 }
