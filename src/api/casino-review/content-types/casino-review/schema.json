@@ -135,6 +135,29 @@
     },
     "ai_generated": {
       "type": "boolean"
+    },
+    "last_validated": {
+      "type": "date",
+      "description": "Date the casino data was last verified"
+    },
+    "withdrawal_speed_label": {
+      "type": "enumeration",
+      "enum": [
+        "Instant",
+        "Under 1 hour",
+        "1-24 hours",
+        "1-3 days",
+        "3+ days"
+      ],
+      "description": "Controlled display label for withdrawal speed badges and filters"
+    },
+    "who_should_play": {
+      "type": "json",
+      "description": "Array of strings: reasons to play here"
+    },
+    "who_should_avoid": {
+      "type": "json",
+      "description": "Array of strings: reasons to look elsewhere"
     }
   }
 }
