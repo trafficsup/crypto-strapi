@@ -158,6 +158,14 @@
     "who_should_avoid": {
       "type": "json",
       "description": "Array of strings: reasons to look elsewhere"
+    },
+    "testing_experience": {
+      "type": "richtext",
+      "description": "Specific testing observations: deposit method + time, game played, withdrawal method + time. Separate from overview."
+    },
+    "getting_started": {
+      "type": "richtext",
+      "description": "4-step registration guide for new players at this casino."
     }
   }
 }
