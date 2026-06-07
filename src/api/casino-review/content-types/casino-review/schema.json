@@ -166,6 +166,12 @@
     "getting_started": {
       "type": "richtext",
       "description": "4-step registration guide for new players at this casino."
+    },
+    "rating_security": {
+      "type": "float"
+    },
+    "rating_mobile": {
+      "type": "float"
     }
   }
 }
