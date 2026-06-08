@@ -176,6 +176,45 @@
     "is_restricted_au": {
       "type": "boolean",
       "default": false
+    },
+    "score_badge": {
+      "type": "enumeration",
+      "enum": [
+        "Best_for_Bitcoin",
+        "Best_for_Pokies",
+        "Best_for_Live_Casino",
+        "Best_for_Sports",
+        "Best_for_Bonuses",
+        "Best_for_Withdrawals",
+        "Best_for_No_KYC",
+        "Best_for_Provably_Fair",
+        "Best_for_High_Rollers",
+        "Best_for_New_Players",
+        "Best_for_Streamers",
+        "Best_for_AU_Players",
+        "Editors_Pick"
+      ]
+    },
+    "max_withdrawal": {
+      "type": "string"
+    },
+    "rating_games_note": {
+      "type": "string"
+    },
+    "rating_bonuses_note": {
+      "type": "string"
+    },
+    "rating_payments_note": {
+      "type": "string"
+    },
+    "rating_security_note": {
+      "type": "string"
+    },
+    "rating_mobile_note": {
+      "type": "string"
+    },
+    "rating_support_note": {
+      "type": "string"
     }
   }
 }
