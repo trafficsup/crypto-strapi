@@ -47,6 +47,22 @@
         "published"
       ],
       "default": "draft"
+    },
+    "testing_steps": {
+      "type": "json",
+      "required": false
+    },
+    "scoring_categories": {
+      "type": "json",
+      "required": false
+    },
+    "update_triggers": {
+      "type": "json",
+      "required": false
+    },
+    "independence_text": {
+      "type": "text",
+      "required": false
     }
   }
 }
