@@ -172,6 +172,10 @@
     },
     "rating_mobile": {
       "type": "float"
+    },
+    "is_restricted_au": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
