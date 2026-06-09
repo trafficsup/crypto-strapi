@@ -54,6 +54,9 @@
     },
     "verdict": {
       "type": "text"
+    },
+    "faq": {
+      "type": "json"
     }
   }
 }
