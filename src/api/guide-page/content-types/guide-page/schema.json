@@ -41,6 +41,20 @@
         "published"
       ],
       "default": "draft"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "How-To",
+        "Legal-Tax",
+        "Explainer",
+        "Bonuses",
+        "Payments",
+        "Games"
+      ]
     }
   }
 }
