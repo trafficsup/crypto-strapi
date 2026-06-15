@@ -90,6 +90,18 @@
     "reviews_count": {
       "type": "string",
       "description": "Total reviews count for display, e.g. '78'"
+    },
+    "homepage_faq": {
+      "type": "json",
+      "description": "Array of {question, answer} for homepage FAQ section"
+    },
+    "reviews_faq": {
+      "type": "json",
+      "description": "Array of {question, answer} for /reviews/ page FAQ section"
+    },
+    "best_casinos_hub_faq": {
+      "type": "json",
+      "description": "Array of {question, answer} for /best-casinos/ hub page FAQ section"
     }
   }
 }
