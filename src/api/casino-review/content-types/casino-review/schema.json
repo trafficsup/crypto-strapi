@@ -215,6 +215,20 @@
     },
     "rating_support_note": {
       "type": "string"
+    },
+    "fallback_casino": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::casino-review.casino-review",
+      "description": "Recommended alternative casino when affiliate link is missing"
+    },
+    "fallback_title": {
+      "type": "string",
+      "description": "Custom modal headline (defaults to built-in copy if empty)"
+    },
+    "fallback_message": {
+      "type": "text",
+      "description": "Custom modal body copy (defaults to built-in copy if empty)"
     }
   }
 }
