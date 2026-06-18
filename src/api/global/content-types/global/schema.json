@@ -102,6 +102,20 @@
     "best_casinos_hub_faq": {
       "type": "json",
       "description": "Array of {question, answer} for /best-casinos/ hub page FAQ section"
+    },
+    "default_fallback_casino": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::casino-review.casino-review",
+      "description": "Site-wide default fallback casino shown when a casino has no affiliate link and no custom fallback set"
+    },
+    "default_fallback_title": {
+      "type": "string",
+      "description": "Site-wide default modal headline (overridden by per-casino fallback_title)"
+    },
+    "default_fallback_message": {
+      "type": "text",
+      "description": "Site-wide default modal body copy (overridden by per-casino fallback_message)"
     }
   }
 }
