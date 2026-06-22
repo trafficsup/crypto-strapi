@@ -27,6 +27,9 @@
     "meta_description": {
       "type": "text"
     },
+    "intro": {
+      "type": "text"
+    },
     "ranked_casinos": {
       "type": "json"
     },
