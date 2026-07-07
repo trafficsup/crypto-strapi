@@ -229,6 +229,51 @@
     "fallback_message": {
       "type": "text",
       "description": "Custom modal body copy (defaults to built-in copy if empty)"
+    },
+    "screenshot_hero": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "private": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "screenshot_lobby": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "private": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "screenshot_bonus": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "private": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "screenshot_payment": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "private": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "screenshot_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "private": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
