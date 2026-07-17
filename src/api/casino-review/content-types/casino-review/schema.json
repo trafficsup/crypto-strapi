@@ -274,6 +274,9 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "casino_url": {
+      "type": "string"
     }
   }
 }
