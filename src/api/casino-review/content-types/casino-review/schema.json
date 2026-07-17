@@ -277,6 +277,9 @@
     },
     "casino_url": {
       "type": "string"
+    },
+    "welcome_bonus": {
+      "type": "string"
     }
   }
 }
