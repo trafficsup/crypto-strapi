@@ -280,6 +280,15 @@
     },
     "welcome_bonus": {
       "type": "string"
+    },
+    "bonus_type": {
+      "type": "string"
+    },
+    "free_spins": {
+      "type": "integer"
+    },
+    "bonus_max": {
+      "type": "string"
     }
   }
 }
