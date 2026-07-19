@@ -104,6 +104,16 @@
       "type": "string",
       "description": "KYC requirements description"
     },
+    "kyc_status": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "Threshold_based",
+        "No",
+        "Unknown"
+      ],
+      "description": "Structured KYC status: Yes=always required, Threshold_based=triggered above limit, No=not required, Unknown=unconfirmed"
+    },
     "min_deposit": {
       "type": "string",
       "description": "Minimum deposit amount"
